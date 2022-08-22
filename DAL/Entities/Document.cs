@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DAL.Enum;
+using DAL.Ext;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -152,5 +154,26 @@ namespace DAL.Entities
         public int SizeQueue { get; set; }
         [DataMember]
         public int PositionPoolQueue { get; set; }
+
+        [DataMember] public bool PrintOnlyElectronicChecks { get; set; }
+
+        [DataMember] public string PrintOnlyElectronicChecksDefaultContact { get; set; }
+
+        [DataMember] public DeviceType DeviceType { get; set; }
+
+        /// <summary>
+        /// Установка ошибки
+        /// </summary>
+        /// <param name="error">Ошибка</param>
+        /// <param name="addMessage">Дополнительное сообщение</param>
+        public void SetError(Error error, string addMessage = null)
+        {
+            ResultCode = (int)error;
+            ResultDescription = error.GetDescription();
+            if (!string.IsNullOrEmpty(addMessage))
+            {
+                ResultDescription += $": {addMessage}";
+            }
+        }
     }
 }

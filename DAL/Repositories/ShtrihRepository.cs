@@ -17,9 +17,9 @@ namespace DAL.Repositories
             _context = context;
         }
 
-        public async Task<Document> PrintDocument(Document document)
-        {
+        //public async Task<Document> PrintDocument(Document document)
+        //{
 
-        }
+        //}
     }
 }

@@ -1,0 +1,39 @@
+{
+  "cashPayment": 10000,
+  "electronicPayment": 0,
+  "creditPayment": 0,
+  "advancePayment": 0,
+  "cashProvisionPayment": 0,
+  "password": "30",
+  "checkType": 1,
+  "checkMode": 1,
+  "isFiscal": true,
+  "taxType": 0,
+  "cashier": "Иванова",
+  "checkItems": [
+    {
+      "name": "Товар 1",
+      "quantity": 2,
+      "price": 50,
+      "summ": 100,
+      "department": 1,
+      "isFiscal": true,
+      "taxValue": 0,
+      "paymentMode": 4,
+      "itemType": 1,
+      "taxSum": 0
+    },
+    {
+      "name": "Товар 2",
+      "quantity": 1,
+      "price": 20,
+      "summ": 200,
+      "department": 2,
+      "isFiscal": true,
+      "taxValue": 0,
+      "paymentMode": 4,
+      "itemType": 1,
+      "taxSum": 0
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "cashPayment": 100,
+  "electronicPayment": 20,
+  "creditPayment": 0,
+  "advancePayment": 0,
+  "cashProvisionPayment": 0,
+  "itemsSumm": 0,
+  "summ": 0,
+  "password": "30",
+  "checkType": 1,
+  "checkMode": 1,
+  "clientContact": "string",
+  "isFiscal": true,
+  "taxType": 0,
+  "senderEmail": "string",
+  "customerEmail": "string",
+  "agentSign": 0,
+  "additionalAttribute": "string",
+  "userAttribute": {
+    "name": "string",
+    "value": "string"
+  },
+  "operationalAttribute": {
+    "dateTime": "string",
+    "operationID": 0,
+    "operationData": "string"
+  },
+  "industryAttribute": {
+    "identifierFOIV": "string",
+    "documentDate": "string",
+    "documentNumber": "string",
+    "attributeValue": "string"
+  },
+  "agentData": {
+    "payingAgentOperation": "string",
+    "payingAgentPhone": "string",
+    "receivePaymentsOperatorPhone": "string",
+    "moneyTransferOperatorPhone": "string",
+    "moneyTransferOperatorName": "string",
+    "moneyTransferOperatorAddress": "string",
+    "moneyTransferOperatorVATIN": "string"
+  },
+  "purveyorData": {
+    "purveyorPhone": "string",
+    "purveyorName": "string",
+    "purveyorVATIN": "string"
+  },
+  "customerInfo": "string",
+  "customerINN": "string",
+  "fiscalSignAsString": "string",
+  "cashier": "string",
+  "checkItems": [
+    {
+      "name": "string",
+      "quantity": 0,
+      "price": 0,
+      "summ": 0,
+      "additionalAttribute": "string",
+      "department": 0,
+      "isFiscal": true,
+      "taxValue": 0,
+      "paymentMode": 0,
+      "itemType": 0,
+      "taxSum": 0,
+      "barcode": {
+        "barcodeType": "string",
+        "barcodeText": "string"
+      },
+      "picture": {
+        "base64": "string",
+        "pictureName": "string",
+        "width": 0,
+        "height": 0,
+        "startLineNumber": 0,
+        "endLineNumber": 0,
+        "alignment": 0,
+        "uploaded": "2022-08-22T08:19:36.520Z",
+        "isUploaded": true,
+        "override": true
+      },
+      "agentDataItem": {
+        "payingAgentOperation": "string",
+        "payingAgentPhone": "string",
+        "receivePaymentsOperatorPhone": "string",
+        "moneyTransferOperatorPhone": "string",
+        "moneyTransferOperatorName": "string",
+        "moneyTransferOperatorAddress": "string",
+        "moneyTransferOperatorVATIN": "string"
+      },
+      "purveyorDataItem": {
+        "purveyorPhone": "string",
+        "purveyorName": "string",
+        "purveyorVATIN": "string"
+      },
+      "signSubjectCalculationAgent": 0,
+      "countryOfOrigin": "string",
+      "customsDeclaration": "string",
+      "exciseAmount": 0,
+      "measurementUnit": "string",
+      "markingCode": "string",
+      "measureOfQuantity": 0,
+      "fractionalQuantityNumerator": 0,
+      "fractionalQuantityDenominator": 0,
+      "industryAttribute": {
+        "identifierFOIV": "string",
+        "documentDate": "string",
+        "documentNumber": "string",
+        "attributeValue": "string"
+      },
+      "productCode": "string"
+    }
+  ]
+  
+}
